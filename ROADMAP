@@ -1,0 +1,44 @@
+IdleAnts RoadMap
+
+Legend
+  Stuff to do follows the order of the numbers next to it
+    (+) Means extrastuff after the main stuff is done
+    (/) Main stuff
+    [Text] ... (+ ...) Stuff between the parentheses is other things this block should solve
+    (?) Ideas, will I do it, will I not?
+  
+(/) 1. Learn JavaScript :
+
+      (?) https://www.youtube.com/watch?v=W6NZfCO5SIk&ab_channel=ProgrammingwithMosh
+      (?) https://codewithmosh.com/p/ultimate-javascript-series
+      (?)
+
+(/) 2. GitHub Tutorial
+
+(/) 3. Working framework : https://github.com/Flaque/merchant.js
+    (/) 3.1. Ressource counter (+ button to collect)
+        (+) 3.1.1. Dirt, leaves, stones, sticks
+    (/) 3.2. Spending ressources button (+ affects counter, + gives item/building)
+
+(/) 4. Once framework is working, expand
+    (/) 4.1. Add 3 different ressources with counters
+    (/) 4.2. Add 3 different
+
+
+    
+Idea dump
+    Different ant races
+        Warrior race
+        Scout race
+        Population race
+        Farming races
+            Outside foraging
+            Inside farming
+    Exploration
+        Different locations to discover, take over, and where to forage for ressources
+            Houses, villages, garden, cave, etc. etc.
+    Ant intelligence developpement
+        System to make the ants more and more intelligent
+    Genetic engineering
+        Later on with "prestige" currency
+  
