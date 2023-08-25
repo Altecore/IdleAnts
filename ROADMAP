@@ -4,8 +4,10 @@ Legend
   Stuff to do follows the order of the numbers next to it
     (+) Means extrastuff after the main stuff is done
     (/) Main stuff
-    [Text] ... (+ ...) Stuff between the parentheses is other things this block should solve
+    [Text] ... (+ ...) Stuff between the parentheses is other things this block should create with
     (?) Ideas, will I do it, will I not?
+    (ref.) Reference to another point in the roadmap
+    [Text] ... ✔️ Means it's done and working
   
 (/) 1. Learn JavaScript :
 
@@ -20,25 +22,37 @@ Legend
         (+) 3.1.1. Dirt, leaves, stones, sticks
     (/) 3.2. Spending ressources button (+ affects counter, + gives item/building)
 
-(/) 4. Once framework is working, expand
-    (/) 4.1. Add 3 different ressources with counters
-    (/) 4.2. Add 3 different
+(/) 4. Once framework is working, expand it with more ressources and buildings
+    (/) 4.1.
+    (/) 4.2.
 
+(/) 5. Add the population mechanic
+    (/) 5.1. First building to build with ressources, to host ants (ref. 3.2.)
+    (/) 5.2. Population affects production of ressources (ref. 3.1. + 3.2.)
 
     
 Idea dump
-    Different ant races
-        Warrior race
-        Scout race
-        Population race
+    Different ant races (gives different buffs to production of certain ressources)
+        Warrior races (the fighting stats will be present even if less efficient in other races, make sure that these races give a true advantage somewhere by making the fighting mechanic useful for certain ressources or progression)
+            Full defence (+find ant race with the big ass heads)
+            Full offence (+find ant race with formic acid)
+            Hybrid (+red fire ants?)
+        Scout race (+bullet ants?)
+        Population race (+brown ants species)
         Farming races
-            Outside foraging
-            Inside farming
+            Outside foraging (+???)
+            Inside farming (+find mushroom farming ant race)
     Exploration
-        Different locations to discover, take over, and where to forage for ressources
+        Different locations to discover, take over, and where to forage for ressources or fight
             Houses, villages, garden, cave, etc. etc.
-    Ant intelligence developpement
-        System to make the ants more and more intelligent
-    Genetic engineering
-        Later on with "prestige" currency
-  
+    Prestige system
+        Genetic engineering (to discover in the first run, so you discover this system first, which unlocks new mechanics)
+                Ant intelligence developpement (the basic upgrade, gives intelligence to the ants, which unlocks other systems such as science, religion, art and all)
+                Ant millitary upgrades (modify or add body parts to make speed, defence, offence, replicative speed and all more efficient)
+        Ressource production bonuses
+        Automatisation upgrades (ad Antimatter Dimension style)
+    ASCII graphics
+    World map expansion, new territories, ressources, etc.
+        Space exploration?
+            Ants = Galaxy supremacy?
+
