@@ -1,0 +1,10 @@
+body {
+    background-color: rgb(0,0,0);
+}
+.inventory{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    line-height: 0.1;
+    color: white;
+}
