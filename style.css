@@ -6,11 +6,11 @@ body {
 .inventory{
     position: fixed;
     background-color: rgb(255, 255, 255);
-    bottom: 0;
-    width: 100%;
-    line-height: 0.1;
+    bottom: 10px;
+    width: 25%;
+    line-height: 0.6;
     color: rgb(0, 0, 0);
-    Bord
+    border-style: double
 }
 /* Détermine l'apparence de la fenêtre marketplace à modifier après le tutorial */
 .marketplace{
