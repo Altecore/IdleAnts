@@ -5,10 +5,12 @@ body {
 /* Détermine l'apparence de la fenêtre d'inventaire */
 .inventory{
     position: fixed;
+    background-color: rgb(255, 255, 255);
     bottom: 0;
     width: 100%;
     line-height: 0.1;
-    color: white;
+    color: rgb(0, 0, 0);
+    Bord
 }
 /* Détermine l'apparence de la fenêtre marketplace à modifier après le tutorial */
 .marketplace{
