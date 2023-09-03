@@ -21,7 +21,7 @@ $(document).ready(function(){
     $("#return").click(function(){
         menu = switchMenu("main");
     });
-
+    /*Fonction qui update l'inventaire après un achat*/
     function changeInventory(){
         $("#colony_size").html("Colony size: " + ants);
 
