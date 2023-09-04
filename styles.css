@@ -1,0 +1,175 @@
+/* Détermine l'apparence générale de la page */
+body {
+    background-color: rgb(0,0,0);
+}
+
+/*Détermine l'apparence des fenêtres dans le left divider*/
+.left_divider {
+    overflow: hidden;
+    position: fixed;
+        top: 1%; bottom: 1%; left: 1%; right: 60%;
+    background-color: rgb(255, 255, 255);
+    border-style: double;}  
+    .main_buttons_menu button {
+        background-color: #ffffff;
+        border: 1px solid rgb(0, 0, 0);
+        color: rgb(0, 0, 0);
+        padding: 10px 24px;
+        cursor: pointer;
+        width: 100%;
+        display: block}
+        .main_buttons_menu button:not(:last-child) {
+            border-bottom: none;}
+        .main_buttons_menu button:hover {
+            background-color: #626d62;}
+    .inventory_menu {
+        overflow: scroll;
+        position: fixed; 
+            top: 51%; bottom: 2%; left: 2%; right: 61%;
+        line-height: 30px;
+        border-style: ridge;
+        background-color: rgb(255, 255, 255);
+        background-image: url(../images/inventory_background.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;}
+        #leaf_text {
+            position: static;
+            color: rgb(0, 182, 24); 
+            border-style:inherit; 
+            border-color: rgb(0, 182, 24); 
+            border-width: 2px; 
+            text-align: center;
+            margin-left: 2%;
+            margin-right: 2%;}
+        #stick_text {
+            position: static;
+            color: rgb(112, 73, 21); 
+            border-style:inherit; 
+            border-color: rgb(112, 73, 21); 
+            border-width: 2px; 
+            text-align: center;
+            margin-left: 2%;
+            margin-right: 2%;}
+        #stone_text {
+            position: static;
+            color: rgb(117, 117, 117); 
+            border-style:inherit; 
+            border-color: rgb(117, 117, 117); 
+            border-width: 2px; 
+            text-align: center;
+            margin-left: 2%;
+            margin-right: 2%}
+
+/*Détermine l'apparence des fenêtres dans le right divider*/
+.right_divider {
+    display: block;
+    position: fixed;
+        right: 1%; top: 1%; bottom: 1%; left: 40%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-style: double}
+    .right_divider_top {
+        display: block;}
+        .colony_menu {
+            display: none;
+            overflow: hidden;
+            position: fixed;
+                top: 2%; bottom: 51%; left: 41%; right: 2%;
+            line-height: 30px;
+            border-style: ridge;        
+            background-color: rgb(255, 255, 255);
+            background-image: url(../images/colony_background.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;}
+            #queen_text {
+                font-size: larger;
+                position: fixed;
+                    top: 30%; left: 51%;
+                color: rgb(199, 186, 2); 
+                border-style: inherit; 
+                border-color: rgb(199, 186, 2); 
+                margin-left: 10px;
+                margin-right: 10px}
+            #larvae_text {
+                font-size: smaller;
+                position: fixed;
+                    top: 39%; left: 42%;
+                color: rgb(155, 62, 0); 
+                border-style: inherit; 
+                border-color: rgb(155, 62, 0); 
+                margin-left: 10px;
+                margin-right: 10px}
+            #ant_text {
+                font-size: smaller;
+                position: fixed;
+                    top: 39%; left: 74%;
+                color: rgb(255, 0, 0); 
+                border-style: inherit; 
+                border-color: rgb(255, 0, 0); 
+                margin-left: 10px;
+                margin-right: 10px}
+            .colony_menu_buttons button {
+                background-color: #ffffff;
+                border: 1px solid rgb(0, 0, 0);
+                color: rgb(0, 0, 0);
+                padding: 10px 24px;
+                cursor: pointer;
+                width: 100%;
+                display: block;}
+                .colony_menu_buttons button:not(:last-child) {
+                    border-bottom: none;}
+                .colony_menu_buttons button:hover {
+                    background-color: #626d62;}
+        .settings_menu {
+            display: none;
+            overflow: hidden;
+            position: fixed;
+                top: 2%; bottom: 51%; left: 41%; right: 2%;
+            line-height: 30px;
+            border-style: ridge;        
+            background-color: rgb(255, 255, 255);
+            background-image: url(../images/settings_background.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;}
+            .settings_menu_buttons button {
+                background-color: #ffffff;
+                border: 1px solid rgb(0, 0, 0);
+                color: rgb(0, 0, 0);
+                padding: 10px 24px;
+                cursor: pointer;
+                width: 100%;
+                display: block;}
+                .settings_menu_buttons button:not(:last-child) {
+                    border-bottom: none;}
+                .settings_menu_buttons button:hover {
+                    background-color: #626d62;}
+    .right_divider_bottom {
+        display: block;}
+        .expeditions_menu {
+            display: block;
+            overflow: hidden;
+            position: fixed;
+            line-height: normal;
+            top: 51%; bottom: 2%; left: 41%; right: 2%;
+            border-style: ridge;        
+            background-color: rgb(255, 255, 255);
+            background-image: url(../images/expedition_background.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;}
+            .expeditions_menu_buttons button {
+                background-color: #ffffff;
+                border: 1px solid rgb(0, 0, 0);
+                color: rgb(0, 0, 0);
+                padding: 10px 24px;
+                cursor: pointer;
+                width: 100%;
+                display: block;}
+                .expeditions_menu_buttons button:not(:last-child) {
+                    border-bottom: none;}
+                .expeditions_menu_buttons button:hover {
+            background-color: #626d62;}
+

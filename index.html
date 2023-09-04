@@ -1,35 +1,68 @@
 <!DOCTYPE html>
-<head>
-    <title>IdleAnts</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script> 
-        <!--Jquery est une librairie HTML. 
-            On peut soit la downloader et l'inclure dans les fichiers, ou encore utiliser un lien d'un CDN tel que google. 
-            C'est ce que j'ai fait ici.-->
-    <script src="main.js"></script>
-</head>
-<body>
-    <div class="content">
-        <div class="menus">
-            <div class="main">
-                <button id="spawn_egg">Spawn egg</button>
-                <button id="collect_leaf">Collect leaf</button>
-                <button id="visit">Marketplace</button> <!--retirer ce bouton après tutorial-->
-            </div>
-            <!--Modifier cette section après le tutorial-->
-            <div class="marketplace">
-                <div class="sell_buttons">
-                    <button id="sell1">Sell [1] leaf</button>
-                    <button id="sell10">Sell [10] leaves</button>
-                    <button id="sellall">Sell [all] leaves</button>
-                </div>
-                <button id="return">Return</button>
-            </div>
-        </div>
+<html lang="en-US">
+    <head>
+        <title>IdleAnts</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script> 
+            <!--Jquery est une librairie HTML. 
+                On peut soit la downloader et l'inclure dans les fichiers, ou encore utiliser un lien d'un CDN tel que google. 
+                C'est ce que j'ai fait ici.-->
+        <script src="scripts.js"></script>
+    </head>
 
-        <div class="inventory">
-            <p id="colony_size">Colony size: 0</p>
-            <p id="leaves">Leaf: 0</p>
+    <body>
+        <div class="game">
+            <div class="left_divider">
+                <div class="main_buttons_menu">
+                    <!-- Endroit où on met les boutons vers les autres menus -->
+                        <Button id="colony_button"> Colony </Button>
+                        <Button id="expeditions_button"> Expeditions </Button>
+                        <Button id="settings_button"> Settings </Button>
+                </div>
+    
+                <div class="inventory_menu">
+                    <!-- Endroit où on display les ressources que le player a en stock
+                    Possibilité de mettre des racourcis plus tard -->
+                    <p id="leaf_text">You currently have 0 leaf</p>
+                    <p id="stick_text">You currently have 0 stick</p>
+                    <p id="stone_text">You currently have 0 stone</p>
+                </div>
+            </div>  
+            <div class="right_divider">
+                <div class="right_divider_top">
+                    <div class="colony_menu">
+                        <!-- Endroit où on met les options en lien avec la population -->
+                        <p id="queen_text">You currently have 0 queen</p>
+                        <p id="ant_text">You currently have 0 ant</p>
+                        <p id="larvae_text">You currently have 0 larvae</p>
+                        <div class="colony_menu_buttons">
+                            <button id="spawn_larvae_button">Spawn a larvae</button>
+                            <button id="feed_larvae_button">Feed larvae (25 leaves)</button>
+                        </div>
+                    </div>
+                    <div class="settings_menu">
+                        <div class="settings_menu_buttons">
+                            <button id="settings_import_button">Import</button>
+                            <button id="settings_export_button">Export</button>
+                            <button id="settings_sound_button">Sound</button>
+                            <button id="settings_colortheme_button">Color Theme</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="right_divider_bottom">
+                    <div class="expeditions_menu">
+                        <!-- Endroit où le joueur peut dépenser différentes ressources pour
+                        financer des expéditions où les fourmis vont récolter d'autres ressources
+                        ex. stones, sticks, etc. -->
+                        <div class="expeditions_menu_buttons">
+                            <Button id="collect_leaf_button"> Collect Leaves </Button>
+                            <Button id="stick_expedition_button"> Send a stick expedition (10 leaves)</Button>
+                            <Button id="stone_expedition_button"> Send a stone expedition (25 leaves)</Button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
-</body>
+    </body>
+</html>
