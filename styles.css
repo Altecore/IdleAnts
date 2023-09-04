@@ -72,7 +72,7 @@ body {
     .right_divider_top {
         display: block;}
         .colony_menu {
-            display: none;
+            display: block;
             overflow: hidden;
             position: fixed;
                 top: 2%; bottom: 51%; left: 41%; right: 2%;
@@ -123,7 +123,7 @@ body {
                 .colony_menu_buttons button:hover {
                     background-color: #626d62;}
         .settings_menu {
-            display: none;
+            display: block;
             overflow: hidden;
             position: fixed;
                 top: 2%; bottom: 51%; left: 41%; right: 2%;
