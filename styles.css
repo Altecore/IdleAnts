@@ -45,8 +45,8 @@ body {
                 color: rgb(112, 73, 21); 
                 border-color: rgb(112, 73, 21);}
             #stone_text {
-            color: rgb(117, 117, 117); 
-            border-color: rgb(117, 117, 117);}
+                color: rgb(117, 117, 117); 
+                border-color: rgb(117, 117, 117);}
 
 /*Détermine l'apparence des fenêtres dans le right divider*/
 .right_divider {
@@ -91,12 +91,12 @@ body {
                     border-style: inherit; 
                     border-color: rgb(155, 62, 0);}
                 #ant_text {
-                font-size: smaller;
-                position: fixed;
-                    top: 39%; left: 74%;
-                color: rgb(255, 0, 0); 
-                border-style: inherit; 
-                border-color: rgb(255, 0, 0);}
+                    font-size: smaller;
+                    position: fixed;
+                        top: 39%; left: 74%;
+                    color: rgb(255, 0, 0); 
+                    border-style: inherit; 
+                    border-color: rgb(255, 0, 0);}
             .colony_menu_buttons button {
                 background-color: #ffffff;
                 border: 1px solid rgb(0, 0, 0);
@@ -133,6 +133,50 @@ body {
                     border-bottom: none;}
                 .settings_menu_buttons button:hover {
                     background-color: #626d62;}
+        .statistics_menu {
+            display: block;
+            overflow: scroll;
+            position: fixed;
+                top: 2%; bottom: 51%; left: 41%; right: 2%;
+            line-height: 30px;
+            border-style: ridge;        
+            background-color: rgb(255, 255, 255);
+            background-image: url(images/statistics_background.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;}
+            .statistics_menu_text p {
+                font-size: smaller;
+                position: static;
+                border-style:double; 
+                border-width: 1px; 
+                background-color: #ffffff;
+                text-align: center;
+                margin: 2%;
+                color: rgb(0, 0, 0); 
+                border-color: rgb(0, 0, 0);}
+                #statistics_total_larvae_text {
+                    display: none;}
+                #statistics_total_ants_text {
+                    display: none;}
+                #statistics_total_leaves_text {
+                    display: none;}
+                #statistics_total_sticks_text {
+                    display: none;}
+                #statistics_total_stones_text {
+                    display: none;}
+            .statistics_menu_buttons button {
+                background-color: #ffffff;
+                border: 1px solid rgb(0, 0, 0);
+                color: rgb(0, 0, 0);
+                padding: 10px 24px;
+                cursor: pointer;
+                width: 100%;
+                display: block;}
+                .statistics_menu_buttons button:not(:last-child) {
+                    border-bottom: none;}
+                .statistics_menu_buttons button:hover {
+                    background-color: #626d62;}
     .right_divider_bottom {
         display: block;}
         .expeditions_menu {
@@ -158,7 +202,7 @@ body {
                 .expeditions_menu_buttons button:not(:last-child) {
                     border-bottom: none;}
                 .expeditions_menu_buttons button:hover {
-            background-color: #626d62;}
+                     background-color: #626d62;}
         .achievements_menu {
             display: none;
             overflow: hidden;
@@ -182,4 +226,4 @@ body {
                 .achievements_menu_buttons button:not(:last-child) {
                     border-bottom: none;}
                 .achievements_menu_buttons button:hover {
-            background-color: #626d62;}
+                  background-color: #626d62;}

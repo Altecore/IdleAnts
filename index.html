@@ -16,18 +16,18 @@
                 <div class="main_buttons_menu">
                     <!-- Endroit où on met les boutons vers les autres menus -->
                         <Button id="colony_button"> Colony </Button>
-                        <Button id="expeditions_button"> Expeditions </Button>
                         <Button id="settings_button"> Settings </Button>
-                        <Button id="achievements_button"> Achievements </Button>
                         <Button id="statistics_button"> Statistics </Button>
+                        <Button id="expeditions_button"> Expeditions </Button>
+                        <Button id="achievements_button"> Achievements </Button>
                 </div>
     
                 <div class="inventory_menu">
                     <!-- Endroit où on display les ressources que le player a en stock
                     Possibilité de mettre des racourcis plus tard -->
-                    <p id="leaf_text">You currently have 0 leaf</p>
-                    <p id="stick_text">You currently have 0 stick</p>
-                    <p id="stone_text">You currently have 0 stone</p>
+                    <p id="leaf_text">You currently have 0 leaves</p>
+                    <p id="stick_text">You currently have 0 sticks</p>
+                    <p id="stone_text">You currently have 0 stones</p>
                 </div>
             </div>  
             <div class="right_divider">
@@ -35,8 +35,8 @@
                     <div class="colony_menu">
                         <!-- Endroit où on met les options en lien avec la population -->
                         <p id="queen_text">You currently have 1 queen</p>
-                        <p id="ant_text">You currently have 0 ant</p>
-                        <p id="larvae_text">You currently have 0 larva</p>
+                        <p id="ant_text">You currently have 0 ants</p>
+                        <p id="larvae_text">You currently have 0 larvae</p>
                         <div class="colony_menu_buttons">
                             <button id="spawn_larvae_button">Spawn a larva (10 leaves)</button>
                             <button id="feed_larvae_button">Feed a larva (25 leaves)</button>
@@ -49,7 +49,19 @@
                             <button id="settings_export_button">Export</button>
                             <button id="settings_sound_button">Sound</button>
                             <button id="settings_colortheme_button">Color Theme</button>
-                            <Button id="close_settings_menu_buttons"> Close </Button>
+                            <Button id="close_settings_menu_button"> Close </Button>
+                        </div>
+                    </div>
+                    <div class="statistics_menu">
+                        <div class="statistics_menu_text">
+                            <p id="statistics_total_larvae_text">You have collected a total of 0 larvae this reset.</p>
+                            <p id="statistics_total_ants_text">You have collected a total of 0 ants this reset.</p>
+                            <p id="statistics_total_leaves_text">You have collected a total of 0 leaves this reset.</p>
+                            <p id="statistics_total_sticks_text">You have collected a total of 0 sticks this reset.</p>
+                            <p id="statistics_total_stones_text">You have collected a total of 0 stones this reset.</p>
+                        </div>
+                        <div class="statistics_menu_buttons">
+                            <Button id="close_statistics_menu_button"> Close </Button>
                         </div>
                     </div>
                 </div>
